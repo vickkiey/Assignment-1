@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include partials/header %>
+<body>
+    <% include partials/navbar %>
+ 
+    <div class="container">
+        <div class="page-header">
+            <h1>
+                About <small>What we aim for!</small>
+            </h1>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">About Me</div>
+            <div class="panel-body">
+                <p>I am a person.  I like some things.  I enjoy working with code, as it means I dont realllly have to talk to 
+                anyone, and I call that a win.  I have been working with computers my entire life, starting when I was 4 and tried to
+                reasseble a broken commador 64.</p>
+            </div>
+        </div>
+ 
+        <hr>
+ 
+        <% include partials/footer %>
+    </div>
+    <!-- /container -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#about').addClass("active");
+        });
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+        src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>
