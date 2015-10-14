@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <% include partials/header %>
-
 <body>
     <% include partials/navbar %>
- 
-        
-
-   
-
-<%include partials/carousel%>
-
-     
-      <%include partials/footer%>
-
     
+    
+   </br>
+   </br>
 
+  
+   
+   <%include partials/carousel.ejs %>
+    
+    <% include partials/footer %>
+
+ <script type="text/javascript">
+        $(document).ready(function() {
+            $('#projects').addClass("active");
+        });
+    </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-  !-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Latest compiled and minified JavaScript -->

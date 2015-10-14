@@ -1,15 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <% include partials/header %>
 <body>
     <% include partials/navbar %>
     
-<% include partials/footer %>
+   <h1> Contact Form</h1>
+<div class =content>
+
+
+  <form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Email: <br>
+  <input type= "text" name ="email">
+  <br>
+  Message: <br>
+  <input type= "textbox" name = "message"><br>
+  <br>
+  <input type = "button" name= "submit" value = "  SUBMIT  "><br>
+</form>
     </div>
-    <!-- /container -->
+    </body>
+    </html>
+<% include partials/footer %>
+   
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#about').addClass("active");
+            $('#contact').addClass("active");
         });
     </script>
     <!-- Bootstrap core JavaScript
